@@ -1,0 +1,36 @@
+/* For small screens */
+@media (max-width: 767px) {
+    .responsiveText {
+      font-size: 14px;
+    }
+    
+    .responsiveButton {
+      font-size: 12px;
+      padding: 5px 10px;
+    }
+  }
+  
+  /* For medium screens */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .responsiveText {
+      font-size: 16px;
+    }
+    
+    .responsiveButton {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  }
+  
+  /* For large screens */
+  @media (min-width: 992px) {
+    .responsiveText {
+      font-size: 18px;
+    }
+    
+    .responsiveButton {
+      font-size: 16px;
+      padding: 10px 15px;
+    }
+  }
+  
